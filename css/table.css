@@ -1,0 +1,31 @@
+.table {
+  max-width: 650px;
+  text-align: center;
+  border-collapse: collapse;
+  margin: auto;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  box-shadow: 10px 10px 10px grey;
+}
+
+.table__caption {
+  caption-side: top;
+  margin: 10px;
+}
+
+.table__cell--header {
+  color: white;
+  background-color: black;
+}
+
+.table__row:nth-child(even) {
+  background: rgb(215, 215, 218);
+}
+
+.table__row:hover {
+  background-color: rgb(184, 180, 181);
+}
+
+.table__cell {
+  padding: 10px;
+}

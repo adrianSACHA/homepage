@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adrian Sachajdakiewicz - Manager z doświadczeniem</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/navigation.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="body" id="homePage">
+    <nav>
+        <ul class="navigation">
+            <li class="navigation__item"><a class="navigation__link" href="#homePage">Homepage</a> </li>
+            <li class="navigation__item"><a class="navigation__link" href="#motto">Moje motto</a></li>
+            <li class="navigation__item"><a class="navigation__link" href="#historia">Historia pracy</a></li>
+        </ul>
+    </nav>
+    <main>
+        <header class="header js-header">O mnie kilka zdań</header>
+        <section class="section">
+            <button class="section__button js-button">
+                <span class="js-buttonName">Ukryj</span> nagłówek
+            </button>
+            <div><img class="section__image" width="200"
+                    src="https://media-exp1.licdn.com/dms/image/C5603AQEOIrpWp6YXZQ/profile-displayphoto-shrink_200_200/0/1519157816420?e=1669852800&v=beta&t=-7Dy-CCUJ_u_dkYQlbp6a5xcB-yMufnnzUlm0uftwrc"
+                    alt="adrian sachajdakiewicz"></div>
+        </section>
+        <section class="section">
+            <h2 id="motto" class="section__subHeader section__subHeader--motto">
+                Moje motto: <em>Zawsze szukam rozwiązań dlatego jestem w tym miejscu i czasie.</em>
+            </h2>
+            <div>
+                <p>Zaczynałem od sprzedawcy i przeszedłem ścieżkę jaką według mnie <strong>każdy powinien
+                        przejść</strong>,
+                    zanim zacznie zarządzać ludźmi.</p>
+                <p>Bez tej wiedzy nie będzie miał za sobą zespołu, którym masz zarządzać.</p>
+                <p>Na stanowisku kierowniczym jestem ponad 8lat.</p>
+                <p>Niecały rok wdrażałem menadżerów na terenie północne Polski.</p>
+                <p><i>Diagnoza i przyglądanie się nie działającym procesom to było wyzwanie.</i></p>
+                <p>Pandemia zmieniła trochę realia i wróciłem na stanowisko kierownika sklepu.</p>
+            </div>
+        </section>
+        <section id="historia" class="section">
+            <h4 class="section__subHeader">
+                <em>Po 12 latach w jednej firmie nadszedł czas zmian, rok 2022 będzie rokiem zmian w moim życiu</em>
+            </h4>
+            <div class="section__tableContainer">
+                <table class="table">
+                    <caption class="table__caption">Historia pracy</caption>
+                    <thead>
+                        <tr class="table__row">
+                            <th class="table__cell table__cell--header" scope="col">Rok</th>
+                            <th class="table__cell table__cell--header" scope="col">Firma</th>
+                            <th class="table__cell table__cell--header" scope="col">Jedno z zadań</th>
+                            <th class="table__cell table__cell--header" scope="col">Stanowisko</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="table__row">
+                            <th class="table__cell table__cell--header" scope="row">2022</th>
+                            <td class="table__cell">SellGLASS</td>
+                            <td class="table__cell">Delegowanie zadań</td>
+                            <td class="table__cell"> Kierownik</td>
+                        </tr>
+                        <tr class="table__row">
+                            <th class="table__cell table__cell--header" scope="row">2021</th>
+                            <td class="table__cell"> TERG</td>
+                            <td class="table__cell"> sporządzanie grafików</td>
+                            <td class="table__cell"> Kierownik</td>
+                        </tr>
+                        <tr class="table__row">
+                            <th class="table__cell table__cell--header" scope="row">2020</th>
+                            <td class="table__cell"> TERG</td>
+                            <td class="table__cell"> sporządzanie konkursów premiowych</td>
+                            <td class="table__cell"> Kierownik</td>
+                        </tr>
+                        <tr class="table__row">
+                            <th class="table__cell table__cell--header" scope="row">2019</th>
+                            <td class="table__cell"> TERG</td>
+                            <td class="table__cell"> wspieranie, mentoring innych kierowników</td>
+                            <td class="table__cell"> Kierownik Terenowy</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr class="table__row">
+                            <th class="table__cell table__cell--header" scope="row" colspan="3">PODSUMOWUJĄC</th>
+                            <td class="table__cell"> Kierownik :)</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        Copywright @ <a class="footer__link" href="mailto:asachajdakiewicz@gmail.com">Adrian Sachajdakiewicz</a>
+    </footer>
+</body>
+
+</html>

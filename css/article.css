@@ -1,0 +1,26 @@
+.article {
+max-width: 600px;
+padding: 20px;
+box-shadow: 2px 2px 8px #ccc;
+margin: 20px auto;
+}
+
+.article--dark{
+    background-color: black; 
+}
+
+.article__header {
+    color: teal;
+}
+
+.article__paraghaph {
+    color: #777; 
+}
+
+.article--dark .article__paraghaph {
+    color: #999;
+}
+
+.article__paraghaph--highlited {
+    color: teal;
+}

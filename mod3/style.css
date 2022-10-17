@@ -1,0 +1,48 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.link {
+  color: red;
+  text-decoration: none;
+}
+
+.link:visited {
+  color: darkred;
+}
+
+.link:focus {
+  outline: 2px solid currentColor;
+}
+
+.link:hover {
+  color: red;
+  border-bottom: 1px solid;
+  outline: none;
+}
+
+.element {
+  font-family: "Lato", sans-serif;
+  font-style: italic;
+  outline-style: inset;
+  outline-color: red;
+  outline-width: 10px;
+  outline-offset: 5px;
+  box-shadow: 1px 1px 1px black;
+  text-shadow: 3px 10px 10px red;
+  width: 300px;
+  border: 2px dotted navy;
+  border-radius: 10px 0px 0px 0px;
+  padding: 5px;
+  margin: 100px auto 50px;
+}

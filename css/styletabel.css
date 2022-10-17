@@ -1,0 +1,33 @@
+.table {
+  font-family: "Lato", sans-serif;
+  border-collapse: collapse;
+}
+
+.tableCell {
+  border: 1px solid #ccc;
+  text-align: center;
+  padding: 10px;
+}
+
+.caption {
+  caption-side: bottom;
+  text-align: left;
+  margin-top: 10px;
+}
+
+.tableHeader {
+  color: white;
+  background-color: red;
+}
+
+.tableRow:nth-child(even) {
+    background: rgb(215, 215, 218);
+}
+
+.tableRow:hover {
+  background-color: pink;
+}
+
+.container {
+    overflow-x: auto;
+}

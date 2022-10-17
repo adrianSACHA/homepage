@@ -1,0 +1,101 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
+
+.body {
+  margin: 0 auto;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  max-width: 700px;
+  inline-size: 1;
+}
+
+.section__button {
+  margin-top: auto;
+}
+
+.hide {
+  display: none;
+}
+
+.header {
+  background-color: black;
+  box-shadow: 10px 10px 10px grey;
+  font-size: x-large;
+  color: whitesmoke;
+  padding: 10px;
+  margin: 10px;
+}
+
+.section__subHeader {
+  background-color: black;
+  color: whitesmoke;
+  padding: 10px;
+  box-shadow: 10px 10px 10px grey;
+}
+
+.section__subHeader--motto {
+  color: whitesmoke;
+  padding: 10px;
+  background-color: black;
+  box-shadow: 10px 10px 10px grey;
+}
+
+.link {
+  color: red;
+  text-decoration: none;
+}
+
+.link:visited {
+  color: darkred;
+}
+
+.link:focus {
+  outline: 2px solid currentColor;
+}
+
+.link:hover {
+  color: red;
+  border-bottom: 1px solid;
+  outline: none;
+}
+
+.section__image {
+  box-shadow: 10px 10px 10px grey;
+  margin-top: 10px;
+}
+
+.container {
+  overflow-x: auto;
+}
+
+.footer {
+  font-size: 9px;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+
+.footer__link {
+  color: red;
+  text-decoration: none;
+}
+
+.footer__link:visited {
+  color: darkred;
+}
+
+.footer__link:focus {
+  outline: 2px solid currentColor;
+}
+
+.footer__link:hover {
+  color: red;
+  border-bottom: 1px solid;
+  outline: none;
+}
