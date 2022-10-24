@@ -1,11 +1,22 @@
 .navigation {
   list-style: none;
-  padding-left: 0px;
+  display: flex;
+  padding: center;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  padding-inline-start: 0px;
 }
 
 .navigation__item {
-  display: inline;
-  padding: 10px;
+  padding: 8px;
+  border: 2px solid black;
+  flex: none;
+  box-shadow: 10px 10px 10px grey;
+  margin: 10px;
+}
+
+.navigation__item:hover {
+  background-color: rgb(167, 164, 164);
 }
 
 .navigation__link {
