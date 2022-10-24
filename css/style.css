@@ -17,7 +17,16 @@ html {
 }
 
 .section__button {
-  margin-top: auto;
+  margin: 10px;
+  background-color: black;
+  box-shadow: 10px 10px 10px grey;
+  color: whitesmoke;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.section__button:hover {
+  background-color: rgb(88, 88, 88);
 }
 
 .hide {
