@@ -6,9 +6,10 @@
 
 https://adriansacha.github.io/homepage/
 
-## Opis
+## Description
 
-Moja piersza strona, o mnie.
-Głównie moje doświadczenie zawodowe w mega skrócie.
+My first short page in HTML, CSS, JS.
+Mainly my professional experience in short.
 
-Przycisk, powoduje usunięcie nagłówka. Pierwsze ćwiczenie, które wykonałem w javascripcie.
+JS
+The button removes/shows the header. 
