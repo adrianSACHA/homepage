@@ -1,4 +1,4 @@
-# Adrian Sachajdakiewicz - Manager z doświadczeniem
+# Adrian Sachajdakiewicz - Manager
 
 ![Adrian Sachajdakiewicz](images/image.jpg)
 
