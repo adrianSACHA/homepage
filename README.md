@@ -1,15 +1,29 @@
-# Adrian Sachajdakiewicz - Manager
+# Adrian Sachajdakiewicz - Manager - Resume
 
-![Adrian Sachajdakiewicz](images/image.jpg)
+![Adrian Sachajdakiewicz HomePage](images/share.png)
+
+## Table of content
+1. Demo
+1. Description
+1. Preview
+1. Technologies
 
 ## DEMO
-
 https://adriansacha.github.io/homepage/
 
-## Description
-
-My first short page in HTML, CSS, JS.
+## 📒 Description
 Mainly my professional experience in short.
+Under navigation bar there's a button to hide and show a Header.
 
-JS
-The button removes/shows the header. 
+## 👀 Preview
+![homepage demo](images/HomePage.gif)
+
+## 💻 Technologies
+* HTML
+* CSS
+* Flexbox
+* BEM
+* JavaScript
+* ES6+ features
+* Markdown
+
