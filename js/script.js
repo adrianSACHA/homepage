@@ -1,10 +1,23 @@
-console.log("Cześć! Nauczycielu :) Bardzo mi miło");
+{
+  const welcome = () => {
+    console.log("Cześć! Nauczycielu :) Bardzo mi miło");
+  };
 
-let button = document.querySelector(".js-button");
-let header = document.querySelector(".js-header");
-let buttonName = document.querySelector(".js-buttonName");
+  const toggleHeader = () => {
+    const header = document.querySelector(".js-header");
+    const buttonName = document.querySelector(".js-buttonName");
+    header.classList.toggle("hide");
+    buttonName.innerText = header.classList.contains("hide")
+      ? "Pokaż"
+      : "Ukryj";
+  };
 
-button.addEventListener("click", () => {
-  header.classList.toggle("hide");
-  buttonName.innerText = header.classList.contains("hide") ? "Pokaż" : "Ukryj";
-});
+  const init = () => {
+    const button = document.querySelector(".js-button");
+    button.addEventListener("click", toggleHeader);
+
+    welcome();
+  };
+  
+  init();
+}
