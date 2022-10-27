@@ -26,4 +26,3 @@ Under navigation bar there's a button to hide and show a Header.
 * JavaScript
 * ES6+ features
 * Markdown
-
